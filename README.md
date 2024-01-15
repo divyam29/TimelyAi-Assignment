@@ -73,3 +73,29 @@ npm run start
     - if required, the port can be changed inside the app.js file
 
 7. To see Postman API Docs, import the `Posts.postman_collection.json` file inside the Postman application
+
+## Postman Screenshots
+*Get All Posts: Successful Response*
+![image](https://github.com/divyam29/TimelyAi-Assignment/assets/72745613/b3729085-76eb-4656-b37b-519a41152003)
+
+*Get single Post: Successful Response*
+![image](https://github.com/divyam29/TimelyAi-Assignment/assets/72745613/5c32c89d-b162-4154-9e11-869968fdf69b)
+
+*Get single Posts: Not Found*
+![image](https://github.com/divyam29/TimelyAi-Assignment/assets/72745613/37177174-1e8f-4e97-a1c5-790ddc64a027)
+
+*Create a Post: Successful Response*
+![image](https://github.com/divyam29/TimelyAi-Assignment/assets/72745613/2c59e714-87f8-42d8-95c6-00f644f5b0b7)
+
+*Update a Post: Successful Response*
+![image](https://github.com/divyam29/TimelyAi-Assignment/assets/72745613/8f691c93-7955-479c-95d9-7944a37e5a0a)
+
+*Update a Post: Not Found*
+![image](https://github.com/divyam29/TimelyAi-Assignment/assets/72745613/837cf276-db9f-4b79-878a-f0f73e092380)
+
+*Delete a Post: Successful Response*
+![image](https://github.com/divyam29/TimelyAi-Assignment/assets/72745613/158386ec-49ae-48f7-8245-6ff851eaa3dd)
+
+*Delete a Post: Not Found*
+![image](https://github.com/divyam29/TimelyAi-Assignment/assets/72745613/a7a1c1db-b5f1-4c73-8ad7-63824c5ff098)
+
