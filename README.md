@@ -29,8 +29,13 @@ cd TimelyAi-Assignment/
 npm install
 ```
 4. Configure the PostgreSQL database:
-    - Create a database named assignment_e.
-    - Update database connection details in config.js.
+    - Create a database. Give any name of your choice.
+    - Update database connection details in the .env file.
+    - Variables:
+        - `PG_DB`: Database Name
+        - `PG_USER`: Postgres User
+        - `PG_PASSWORD`: Postgres Password
+        - `PG_HOST`: Postgres Host
       
 5. Run the application:
 ```bash
