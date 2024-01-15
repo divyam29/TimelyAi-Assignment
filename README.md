@@ -18,23 +18,23 @@ Follow these steps to set up and run the application:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/assignment-e.git
+git clone [https://github.com/your-username/assignment-e.git](https://github.com/divyam29/TimelyAi-Assignment.git)
 ```
 2. Navigate to the project directory:
 ```bash
-cd assignment-e
+cd TimelyAi-Assignment/
 ```
 3. Install dependencies:
 ```bash
 npm install
 ```
 4. Configure the PostgreSQL database:
-  - Create a database named assignment_e.
-  - Update database connection details in config.js.
+    - Create a database named assignment_e.
+    - Update database connection details in config.js.
       
 5. Run the application:
 ```bash
 npm run start
 ```
 6. Access the APIs at http://localhost:8000
-  - if required, the port can be changed inside the app.js file
+    - if required, the port can be changed inside the app.js file
