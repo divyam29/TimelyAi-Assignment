@@ -18,7 +18,7 @@ Follow these steps to set up and run the application:
 
 1. Clone the repository:
 ```bash
-git clone [https://github.com/your-username/assignment-e.git](https://github.com/divyam29/TimelyAi-Assignment.git)
+git clone https://github.com/divyam29/TimelyAi-Assignment.git
 ```
 2. Navigate to the project directory:
 ```bash
