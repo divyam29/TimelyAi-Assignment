@@ -7,7 +7,12 @@ router.get('/', async (req, res) => {
         .then((posts) => {
             res.status(200).json({ Posts: posts });
         })
-        .catch((err) => console.error(err));
+        .catch((err) => {
+            console.error(err);
+            const status = err.statusCode || 500;
+            const message = err.message;
+            res.status(status).json({ message: message });
+        });
 });
 
 router.get('/:postId', async (req, res) => {
@@ -19,7 +24,12 @@ router.get('/:postId', async (req, res) => {
             }
             res.status(200).json({ Post: post });
         })
-        .catch((err) => console.error(err));
+        .catch((err) => {
+            console.error(err);
+            const status = err.statusCode || 500;
+            const message = err.message;
+            res.status(status).json({ message: message });
+        });
 });
 
 router.post('/', async (req, res) => {
@@ -40,6 +50,9 @@ router.post('/', async (req, res) => {
         })
         .catch((err) => {
             console.error(err);
+            const status = err.statusCode || 500;
+            const message = err.message;
+            res.status(status).json({ message: message });
         });
 });
 
@@ -61,7 +74,12 @@ router.put('/:postId', async (req, res) => {
         .then((result) => {
             res.status(200).json({ message: 'Post updated!', Post: result });
         })
-        .catch((err) => console.error(err));
+        .catch((err) => {
+            console.error(err);
+            const status = err.statusCode || 500;
+            const message = err.message;
+            res.status(status).json({ message: message });
+        });
 });
 
 router.delete('/:postId', async (req, res) => {
@@ -80,7 +98,12 @@ router.delete('/:postId', async (req, res) => {
         .then((result) => {
             res.status(200).json({ message: 'Post deleted!' });
         })
-        .catch((err) => console.error(err));
+        .catch((err) => {
+            console.error(err);
+            const status = err.statusCode || 500;
+            const message = err.message;
+            res.status(status).json({ message: message });
+        });
 });
 
 module.exports = router;
